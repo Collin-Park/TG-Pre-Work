@@ -2,15 +2,16 @@
 
 ## When we hit https://www.techtonicgroup.com/ what happens? Don’t focus too much on architecture (Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions.
 
-put your answer here
+First the web browser converts the web address into an address which is searchable on the internet (ip). The server employed by techtonicgroup is pinged with the logic from our computer that we(the client) want them(the server) to send us the contents of the landing page.
+The data is sent through the data infrastructure, and the data, which is in the form of code is digested by my browser (chrome) to display the easy to use, user interface. When I click or interact with the UI, a packet is sent to the server to request the contents as a response to my interaction with the website.
 
 ## From start to finish how does that data reach you to be rendered in the browser?
 
-put your answer here
+the data is sent through the internet, from server side computer to the client side computer through data infrastructure, packeted to protect the information and sometimes encrypted too.
 
 ## What code is rendered in the browser?
 
-put your answer here
+The HTML5, CSS, JS,
 
 ## What is the server-side code’s main function?
 
