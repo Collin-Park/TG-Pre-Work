@@ -1,0 +1,49 @@
+/*html code was not altered so omitted*/
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color:teal;
+}
+
+h1 {
+  color: maroon;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.description h5 {
+  color: teal;
+}
+
+/*nested elements are another way to increase specificity. this lesson was when
+i started to appreciate the attributes and the indenting, by classifying the code
+this way, it is easy to select with high specificity the code to alter in html.
+in the html text, there are multiple headers in the body of the text, one utilized
+for the author's name, and then 4 others used in displaying top attractions nested
+inside div tags with class="description" by introducing chained selector based on
+nesting the 4 h5 tags nested in the .description were altered while the author name
+was not.*/

@@ -1,0 +1,11 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+/*tags can be targetted for the CSS markup, p or the paragraph tag in the html
+file will all be rendered with Arial font, while all the big headers h1 in the
+html will be rendered with the color maroon*/

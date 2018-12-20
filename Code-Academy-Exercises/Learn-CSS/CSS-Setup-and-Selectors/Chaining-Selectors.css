@@ -1,0 +1,42 @@
+/*nothing done to the html code, only CSS shown*/
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color:teal;
+}
+
+h1 {
+  color: maroon;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+/*selectors can be chained like the h2.destination shown at the end of this code
+this means the CSS code will look for h2 with the class destination and operate
+on just these elements. the specificity increases when chaining. in the case of
+h2 and destination this is the rank: of specificity 
+h2.destination>.destination>h2 */

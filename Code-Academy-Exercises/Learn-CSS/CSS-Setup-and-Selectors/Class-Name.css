@@ -1,0 +1,17 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color:teal;
+}
+
+/*the class can be  defined in html as an attribute class=xxx
+the class can be called using .xxx {code to work on the subject in the element}
+the CSS code for title trumps the CSS code for tag, we'll soon see why,
+I'm also curious which dominates, a CSS code for the nested block or a CSS code
+for a nested child in that block*/
