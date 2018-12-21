@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width: 500px;
+  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+  grid-gap: 5px;
+}
+
+.a {
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/*defining multiple grid rows can be done by setting an element with grid-row-start
+and ending it with grid-row-end, the numbering system should be thouhgt as grid lines
+instead of grid positions.
+for example like below:
+1 2 3 4 5         6         7
+| | | | | element | element |
+
+so to fill grid cells 5 and 6, we define the start as 5 and end as 7
+
+*/

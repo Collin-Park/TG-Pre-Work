@@ -1,0 +1,23 @@
+.image {
+  background_image:https://s3.amazonaws.com/codecademy-content/courses/web-101/htmlcss1-diagram__borderbox.svg
+}
+
+/*one way to overcome the box width issue is to use the border-box,
+* {
+  box-sizing: border-box;
+}
+by defining the wildcard selector as the border-box, all the boxes rendered in this
+page will follow the convention.
+
+h1 {
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+using border box, the total height is 300px, minus the padding would mean that the
+content box is now 260px.
+the height is considered in a similar way, 200px total means that the content height
+is 140px.
+*/

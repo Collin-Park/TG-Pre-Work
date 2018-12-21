@@ -1,0 +1,71 @@
+/*html code unaltered hence omitted*/
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color:teal;
+}
+
+h1 {
+  color: maroon;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.description h5 {
+  color: teal;
+}
+
+h5 {
+  color: rebeccapurple !important;
+}
+
+h5,
+p{
+  font-family: Georgia;
+}
+
+/*if there is an instance where more than one selector has code for the same
+operation, it is sometimes easier to put the selectors separated by commas to
+create the operation once instead of writing for it multiple times.
+
+eg.
+-----------------------
+p{
+  font-family: Georgia;
+}
+
+h5{
+  font-family: Georgia;
+}
+-----------------------
+is equivalent to:
+h5,
+p{
+  font-family: Georgia;
+}
+
+*/

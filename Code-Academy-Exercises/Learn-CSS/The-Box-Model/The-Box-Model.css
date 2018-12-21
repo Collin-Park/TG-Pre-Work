@@ -1,0 +1,8 @@
+
+.image {
+  background_image:https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/diagram-boxmodel.svg
+}
+
+/*the url in the value of the declaration backgroun_image shows the idea of how
+the box model works there is the content inside the padding, inside the border,
+inside the margin. the width signifies the x axis and height signifies the y*/

@@ -1,0 +1,19 @@
+.grid {
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 100px 50% 200px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/*columns can be created using the property grid-template-columns, the values it
+can take can vary from 1 to n number of columns. each column value is the width of
+the respective column and can be given in absolute pixels and relative percentages
+(with respect to the box, in this case 400px)*/

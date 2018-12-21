@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  grid-template: repeat(3, 1fr) / 3fr minmax(50px, 300px) 1fr;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/*variable size boxes can be defined using the function minmax,
+minmax(arg1, arg2) takes two arguments arg1 and arg2
+arg1  is the minimum value in px and arg2 is the maximum value in px
+the size will value depending on the browser size and resolution.*/

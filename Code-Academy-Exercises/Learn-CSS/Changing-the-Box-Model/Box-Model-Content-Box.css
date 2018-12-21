@@ -1,0 +1,7 @@
+
+.image {
+  background_image:https://www.codecademy.com/courses/learn-css/lessons/box-model-new/exercises/box-content?action=resume_content_item
+}
+
+/*the default value rendered by the browser is content + padding + border.
+the property that controls box sizing is box-sizing*/

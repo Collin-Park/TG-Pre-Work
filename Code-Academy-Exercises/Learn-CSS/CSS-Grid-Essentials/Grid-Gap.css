@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width:400px;
+  grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
+  grid-gap: 20px 5px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/*grid gap can be defined by rows, columns or by the grid
+grid-row-gap in px is the gap between the rows
+grid-column-gap in px is the gap between the columns
+or alternatively
+grid-gap: x y; in px is the gap between the rows(x) and columns(y)
+*/

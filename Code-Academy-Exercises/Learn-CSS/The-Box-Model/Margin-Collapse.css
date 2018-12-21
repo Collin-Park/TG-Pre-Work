@@ -1,0 +1,8 @@
+
+.image {
+  background_image:https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/diagram-verticalmargins.svg
+}
+
+/*while margin is additive in the y-axis, the x-axis collapses. and the greater
+value of the bottom margin of the top box and the top margin of the bottom box
+is displayed.*/

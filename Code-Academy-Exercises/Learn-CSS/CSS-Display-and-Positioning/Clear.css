@@ -1,0 +1,128 @@
+body {
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #466995;
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+li {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 80px;
+}
+
+li:hover {
+  color: #DBE9EE;
+}
+
+h1 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 auto 20px auto;
+}
+
+h3 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+h4 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase
+}
+
+p {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #DBE9EE;
+  text-align: center;
+}
+
+.welcome {
+  background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+
+.question {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+}
+
+.answer:hover {
+  background: #C0D6DF;
+  color: #FFF;
+}
+
+footer {
+  height: 100px;
+}
+
+/*with float, especially for multiple floats at once, the webpage maybe displayed
+in a nonsensical way. multiple floats can cause the webpage elements to bump into
+one another and not allow other elements to move.
+this is where the property clear: comes in. clear has four possible values:
+left — the left side of the element will not touch any other element within the
+same containing element.
+right — the right side of the element will not touch any other element within the
+same containing element.
+both — neither side of the element will touch any other element within the same
+containing element.
+none — the element can touch either side.
+
+in this exercise, we fixed the issue created from multiple floats declared on .answer
+to do this we added a clear: left; to the .question which was interfereing with the .answer's
+in the end we removed both the float and the clear properties because it just was not working
+for us.
+*/

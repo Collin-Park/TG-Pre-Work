@@ -1,0 +1,15 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" type="text/css" rel="stylesheet">
+</head>
+
+/*html code above CSS code below*/
+
+h1 {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+
+
+/*fonts.google.com is a website where font api links can be generated and called
+the html link above sources the typeface, and in the CSS below I've called for
+a declaration fro the h1 selector to be space mono with 700 weight*/

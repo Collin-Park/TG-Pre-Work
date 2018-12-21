@@ -1,0 +1,6 @@
+/*in all our exercises so far we've been using explicitly defined numbers of rows
+and columns in our grids. sometimes there may be more elements than can fit perfectly
+into the rows and columns, for example let's say that i search for light bulbs on amazon
+and ask to display 100 search results, lets say that only 89 results show up,
+Inside CSS is is an implicit grid algorithm which fills the grids from rows on down.
+I'm sure there are ways to change how the automation and rules play out.*/

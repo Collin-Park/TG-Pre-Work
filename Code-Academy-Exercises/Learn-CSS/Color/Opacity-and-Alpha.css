@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  max-width: 75vw;
+}
+
+.midground, .foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  margin: 15vh 0 0 15vw;
+  padding: 0;
+  width: 35vw;
+  height: 59vh;
+}
+
+body {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.midground {
+  background-color: hsla(225, 100%, 25%, 0.4);
+}
+
+.foreground {
+  background-color: hsla(325, 50%, 50%, 0.6);
+}
+
+/*opacity is given by the property alpha and can be used with rgb and hsl
+hsla takes in 4 values, as does rgba, the last value a for alpha takes in a value
+between 0 and 1 inclusive, where 0 is transparent and 1 is completely opaque.
+in this exercise we played around with values for alpha and saw how the colors changed*/

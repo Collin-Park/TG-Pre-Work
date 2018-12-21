@@ -1,0 +1,48 @@
+/*html code was unchanged hence omitted*/
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color:teal;
+}
+
+h1 {
+  color: maroon;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.description h5 {
+  color: teal;
+}
+
+h5 {
+  color: rebeccapurple !important;
+}
+
+/*we learned in this lesson that there is a command to override the specificity
+rule. this is the !important syntax that is added at the bottom on the h5 selector.
+this makes the h5 most specific.*/

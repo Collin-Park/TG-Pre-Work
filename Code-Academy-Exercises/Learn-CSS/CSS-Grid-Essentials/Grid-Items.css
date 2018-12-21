@@ -1,0 +1,6 @@
+.images{
+  background-image:https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/lesson-i/css_grid_diagram_2.svg
+}
+
+/*after the grid is set up, multiple grid cells can be populated by one element.
+we'll go into it in more detail later.*/

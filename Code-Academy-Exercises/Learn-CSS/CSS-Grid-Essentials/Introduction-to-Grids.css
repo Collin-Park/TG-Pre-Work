@@ -1,0 +1,14 @@
+/* so far we have learned the box model, the flexbox (is this the border-box?)
+and CSS display and positioning. on top of the three we've learned so far, there is
+a fourth set of properties that use a grid format and can boost our ability to
+improve layout.
+the properties learned will be:
+1. grid-template-columns
+2. grid-template-rows
+3. grid-template
+4. grid-template-area
+5. grid-gap
+6. grid-row-start / grid-row-end
+7. grid-column-start / grid-column-end
+8. grid-area
+*/

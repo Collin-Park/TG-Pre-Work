@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/*the display property can be defined as either grid (block-leve grid) or
+inline-grid (for an inline grid)
+in this exercise we define the parent div of boxes a-g inclusive to have the proeperty
+display to be defined by the value grid.*/

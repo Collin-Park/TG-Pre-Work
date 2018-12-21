@@ -1,0 +1,50 @@
+/*html code was unaltered hence omitted*/
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color:teal;
+}
+
+h1 {
+  color: maroon;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.description h5 {
+  color: teal;
+}
+
+h5 {
+  color: rebeccapurple;
+}
+
+/*as discussed in previous lesson, in nested-elements.css, there were five h5 tags
+4 were nested in .description and one not. the last two operations operate with
+specificity rules in mind. since the nested h5 is more specific, we see that the
+nested h5 is colored teal and the additional h5 selector only operates on the remaining
+h5 tag.*/

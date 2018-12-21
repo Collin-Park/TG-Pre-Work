@@ -1,0 +1,7 @@
+.image {
+  background-image:https://s3.amazonaws.com/codecademy-content/courses/web-101/htmlcss1-diagram__leading.svg
+}
+
+/*font size is the biggest size of the tallest possible font, leading is the space
+between tht top of the font in the line below vs the bottom of the line above.
+line height is the sum of font size and the leading*/
