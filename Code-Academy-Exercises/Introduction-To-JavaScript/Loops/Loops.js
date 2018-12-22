@@ -1,0 +1,6 @@
+/*
+a loop is a set of conditions in the code that will run over and over again until
+a certain terminating condition is reached. when the condition is met the program
+will continue to read and compile the code after the loop block.
+loops can be helpful to iterate through multiple times
+*/

@@ -1,0 +1,4 @@
+/*
+a function is a reusable block of code that does a routine set of operations
+that can help to solve problems and serve specific tasks
+*/
