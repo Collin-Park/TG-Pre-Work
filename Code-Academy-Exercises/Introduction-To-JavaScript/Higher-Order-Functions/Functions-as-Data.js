@@ -13,7 +13,7 @@ is2p2();
 
 console.log(is2p2.name);
 
-/*
+/* 
 When we have very long names like checkThatTwoPlusTwoEqualsFourAMillionTimes,
 we can asign a new variable to take that name.
 this new variable can be used to run the function as well as to call the initial

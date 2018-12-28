@@ -1,0 +1,9 @@
+/*
+babel run commands file must be created and filled with the JS object
+
+{
+"presets": ["env"]
+}
+
+to specify that we're transpiling a file from ES6 or above down to ES5
+*/

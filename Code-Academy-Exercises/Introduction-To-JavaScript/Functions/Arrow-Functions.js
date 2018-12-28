@@ -7,6 +7,6 @@ const plantNeedsWater = (day) => {
 };
 
 
-/*
+/* 
 the function expression can also be written using the '=>' arrow.
 */
